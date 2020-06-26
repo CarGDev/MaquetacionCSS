@@ -16,7 +16,7 @@ header {
   width: 100%;
   height: 140px;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 300px;
 }
 
 header .header-icons-container {
@@ -24,7 +24,26 @@ header .header-icons-container {
   height: 50px;
   display: grid;
   background-color: #47CFAC;
+  display: grid;
+  grid-template-columns: 1fr 30%;
 }
+
+header .header-icons-container .text {
+  display: flex;
+  justify-items: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  justify-self: end;
+}
+
+header .header-icons-container .text p {
+  /* color: #47CFAC; */
+  color: aliceblue;
+}
+
+/* header .header-icons-container .text:hover p {
+  color: aliceblue;
+} */
 
 header .header-icons-container .icons {
   width: 300px;
